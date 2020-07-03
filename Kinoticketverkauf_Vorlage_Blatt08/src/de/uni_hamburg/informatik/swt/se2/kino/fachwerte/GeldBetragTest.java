@@ -21,27 +21,32 @@ public class GeldBetragTest
         assertEquals(8, geldbetrag.getEuroAnteil());
     }
 
+    @Test
     public void testeistGroessereGleich()
     {
 
     }
 
+    @Test
     public void istGeueltig()
     {
         assertFalse(GeldBetrag.istgueltig(-1, 120));
 
     }
 
+    @Test
     public void testAddiere()
     {
 
     }
 
+    @Test
     public void testSubstrahriere()
     {
 
     }
 
+    @Test
     public void testMultipliziere()
     {
 
